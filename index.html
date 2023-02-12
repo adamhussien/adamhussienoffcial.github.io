@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <title>Portfilio</title>
+    
+
+</head>
+<body >
+ 
+  <nav>
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <img src="logo.png" class="logo" alt="logo" />
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+       <!--  <li>
+          <a href="#hero">home</a>
+        </li> -->
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#Services">Services</a>
+        </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  
+ <div class="hero">
+ <div class="container">
+  <div>
+    <img src="hero.jpg"  alt="" data-aos="fade-right" >
+  </div>
+   <div class="details" data-aos="fade-left" >
+    <span > Adam Hussien
+    </span>
+    <h4  > i Am web developer</h4>
+    <p>
+   my name is Adam and
+   I Am A freelancer web development,
+     I love to
+     create and design websites</p>
+    </div>
+    </div>
+ </div>
+   
+ <section class="about" id="about" >
+  <h1> ABOUT ME</h1>
+  <img src="about.jpg" alt="" data-aos="zoom-in-up" >
+ 
+  <p data-aos="zoom-out" >A short brief summary My name is Adam, I speak three language, Arabic, English
+and a little bit of Italian (Which I'm currently Learning)
+i Love coding for me coding is a form of art
+creating a website is something extraordinary for me,
+I am also a book lover I love reading books many kind of books,
+i love movies and music,</p> 
+ </section>
+
+ <section class="projects" id="projects" >
+ <h1>projects</h1>
+ <div class="underline"></div>
+  <div class="pro-container" >
+
+  
+      
+    <div class="card" data-aos="fade-right" >
+      <img src="B.png" alt="" >
+      <div class="details"><h4>landing page</h4>
+        <a href="https://github.com/adamhussien/landin-page">Tap To view</a>
+             </div>
+           </div>
+     <div class="card"data-aos="fade-left" >
+      <img src="A.jpg" alt="">
+      <div class="details"><h4>photography website</h4>
+        <a href="https://github.com/adamhussien/photography"> Tap To view</a></div>
+    </div> 
+    <div class="card" data-aos="fade-right" >
+      <img src="C.png" alt="">
+      <div class="details"> 
+        <h4>calculator</h4>
+        <a href="https://github.com/adamhussien/calculator">Tap To view</a></div>
+    </div>
+    <div class="card"data-aos="fade-right" >
+     <img src="ecom.jpg" alt="">
+    <div class="details"><h4>E-commerce website</h4>
+      <a href="https://github.com/adamhussien/ecommerce-website">Tap To view</a></div>
+    </div>
+    
+    </div>
+  
+ </section>
+<section class="Services" id="Services" >
+  <h1>Services</h1>
+  <div  class="ser-container">
+ <div class="card"data-aos="fade-right" >
+ <img src="3344325.png" width="" alt="" >
+  <h5>javascript</h5>
+   <p>an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+ </div>
+ <div class="card"data-aos="fade-left" >
+  <img src="close.png" width="" alt="">
+  <h5>html</h5>
+  <p>HTML stands for Hyper Text Markup
+     Language
+   HTML is the standard markup
+   <br> language for creating Web pages</p>
+</div>
+  <div class="card" data-aos="fade-right" >
+    <img src="732190.png" width="" alt="">
+    <h5>css</h5>
+    <p>CSS (Cascading Style Sheets) 
+      <br> allows you to create great-looking web pages</p>
+    <h5>CSS</h5>
+ </div> 
+</div>
+</section> 
+
+<footer>
+
+  <div class="footer-content" id="contact">
+      <h3>Contact Me</h3>
+      <ul class="social">
+        <li><i class="fa-brands fa-whatsapp"> <br></i>+39 327 448 8095</li>
+        <li><i class="fa-solid fa-envelope"></i>See069962@gmail.com</li>
+        <li><a href="https://www.facebook.com/adam.othman.14289"><i class="fa-brands fa-facebook"></i></a></li>
+        <li> <a href="https://twitter.com/adamhussien_/"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://github.com/adamhussien"><i class="fa-brands fa-github"></i></a></li>
+        <li> <a href="https://www.instagram.com/adamhus_o/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/adam-hussien-028baa265/"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>  
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;2023  by <span>adam</span></p>
+  </div>
+</footer>
+<script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init({
+  offset: 400, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 1000 // values from 0 to 3000, with step 50ms
+  });
+ 
+</script> 
+  </body>
+</html>
